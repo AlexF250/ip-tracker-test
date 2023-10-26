@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner{
+  background-image: url("img/pattern-bg-mobile.png");
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.snButton{
+  padding-top: 0.815rem;
+  padding-bottom: 0.8735rem;
+}
+
+.leaflet-container{
+  height: 70vh;
+  width: 100vw;
+}
+
+@media screen and (min-width:600px) {
+  .banner{
+  background-image: url("img/pattern-bg-desktop.png");
+  }
+}
