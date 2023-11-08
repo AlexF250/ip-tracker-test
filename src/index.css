@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .banner{
-  background-image: url("../img/pattern-bg-mobile.png");
+  background-image: url("../public/img/pattern-bg-mobile.png");
   height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,6 +21,6 @@
 
 @media screen and (min-width:600px) {
   .banner{
-  background-image: url("../img/pattern-bg-desktop.png");
+  background-image: url("../public/img/pattern-bg-desktop.png");
   }
 }
