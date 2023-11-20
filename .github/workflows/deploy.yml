@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+    env:
+      VITE_RANDOMER_API_TOKEN: at_LcET0WZS3wlPrUqTeLABUXOrs97mQ
 
     steps:
       - name: Checkout repo
