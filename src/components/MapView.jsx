@@ -8,8 +8,8 @@ export function MapView () {
     const {data} = useContext(MapContext);
 
     var greenIcon = L.icon({
-        iconUrl: '../img/distmarker-icon.png',
-        shadowUrl: '../img/distmarker-shadow.png',
+        iconUrl: './img/distmarker-icon.png',
+        shadowUrl: './img/distmarker-shadow.png',
     
         iconSize:     [38, 75], // size of the icon
         shadowSize:   [50, 64], // size of the shadow
